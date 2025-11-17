@@ -1,0 +1,193 @@
+
+body {
+  background-color: #edebd7;
+  margin: 0;
+}
+
+h1, 
+h2 {
+  font-family: "hanken-grotesk";
+}
+
+h3, 
+ul {
+  font-family: "hanken-grotesk";
+  line-height: 1.5;
+}
+
+p{
+  font-family: "roboto-serif";
+}
+
+h1, 
+h2, 
+h3, 
+p, 
+a {
+  color: #211f1b;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 3rem;
+  margin: auto 1rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+img {
+  max-width: 800px;
+  width: 100%;
+}
+
+header, 
+footer {
+  display: flex;
+  gap: 1.5rem;
+  background: #5b8e7d;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  margin-bottom: 2rem;
+}
+
+header img {
+  width: 3rem;
+}
+
+header ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 1.5rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+main p,
+main h2,
+main h3
+{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+
+main h2 {
+  margin: auto 1rem;
+}
+
+section, article {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 800px;
+  width: 100%;
+}
+
+body#accueil h1 {
+  font-size: 4.5rem;
+  color: #bc4b51;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body#accueil h2 {
+  font-size: 2.5rem;
+}
+
+body#accueil section:nth-of-type(2),
+body#accueil section:last-of-type {
+  align-items: center;
+}
+
+body#bike main h2,
+body#itineraires main h2 {
+  margin: 2rem 1rem auto;
+  font-size: 2rem ;
+  font-weight: 600;
+}
+
+.button {
+  text-decoration: none;
+  font-family: "hanken-grotesk";
+  font-weight: 700;
+  font-size: 1rem;
+  text-align: center;
+  color: #bc4b51;
+  border: solid 0.25rem #bc4b51;
+  border-radius: 12px;
+  background-color: #edebd7;
+  padding: 0.2rem 1.5rem;
+  margin: 0.5rem;
+}
+
+.button:hover {
+  color: #e3b23c;
+  border-color: #e3b23c;
+}
+
+footer {
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-size: 0.75rem;
+}
+
+footer p,
+nav
+{
+  font-family:"hanken-grotesk";
+  width: 100%;
+}
+footer ul {
+  list-style: none;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+
+}
+
+footer div:first-child {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  padding-bottom: 1rem;
+  width: 100%;
+  max-width: 800px;
+}
+
+footer div:first-child p {
+  font-weight: 900;
+}
+
+footer img {
+  width: 4.5rem;
+  justify-self: center;
+}
+
+@media (max-width: 450px) {
+  body#accueil h1 {
+    font-size: 3rem;
+  }
+}

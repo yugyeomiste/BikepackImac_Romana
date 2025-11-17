@@ -1,0 +1,55 @@
+/* ROBOTO SERIF*/
+
+@font-face {
+  font-family: "roboto-serif";
+  font-style: normal;
+  font-weight: 300;
+  src:
+    local("Roboto Serif Regular"),
+    url("roboto-serif_5.2.8/webfonts/roboto-serif-latin-400-normal.woff2") format("woff2"),
+    url("roboto-serif_5.2.8/webfonts/roboto-serif-latin-400-normal.woff") format("woff"),
+    url("roboto-serif_5.2.8/ttf/roboto-serif-latin-400-normal.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "roboto-serif-medium";
+  font-style: normal;
+  font-weight: 500;
+  src:
+    local("Roboto Serif Medium"),
+    url("roboto-serif_5.2.8/webfonts/roboto-serif-latin-500-normal.woff2") format("woff2"),
+    url("roboto-serif_5.2.8/webfonts/roboto-serif-latin-500-normal.woff") format("woff"),
+    url("roboto-serif_5.2.8/ttf/roboto-serif-latin-500-normal.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "roboto-serif-bold";
+  font-style: normal;
+  font-weight: 700;
+  src:
+    local("Roboto Serif Bold"),
+    url("roboto-serif_5.2.8/webfonts/roboto-serif-latin-700-normal.woff2") format("woff2"),
+    url("roboto-serif_5.2.8/webfonts/roboto-serif-latin-700-normal.woff") format("woff"),
+    url("roboto-serif_5.2.8/ttf/roboto-serif-latin-700-normal.ttf") format("truetype");
+}
+
+
+/* HANKEN GROTESK*/
+
+@font-face {
+  font-family: "hanken-grotesk";
+  font-style: normal;
+  font-weight: 100 900;
+  src:
+    local("Hanken Grotesk"),
+    url("hanken-grotesk/HankenGrotesk-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "hanken-grotesk-italic";
+  font-style: italic;
+  font-weight: 100 900;
+  src:
+    local("Hanken Grotesk Italic"),
+    url("hanken-grotesk/HankenGrotesk-Italic-VariableFont_wght.ttf") format("truetype");
+}
